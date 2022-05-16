@@ -1,4 +1,4 @@
-package utilitiesExercises;
+package utilitiesExercises.exLoops;
 
 public class booleanIf {
 
