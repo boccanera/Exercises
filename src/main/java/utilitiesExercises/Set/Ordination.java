@@ -103,7 +103,7 @@ class Serie implements Comparable<Serie>{
     public int compareTo(Serie serie) {
         int episodeTime = Integer.compare(this.getEpisodeTime(), serie.getEpisodeTime());
         if (episodeTime != 0) return episodeTime;
-        return this.getGender().compareTo(serie.getGender());
+        return this.getGender().compareToo(serie.getGender());
     }
 }
 
