@@ -48,13 +48,20 @@ public class RainbowColors {
         for (String color: colors){
             if(color.startsWith("v")) System.out.println(color);
         }
-        System.out.println("Remove all colors that don't initiate with 'v': ");
+//        System.out.println("Remove all colors that don't initiate with 'v': ");
+//        Iterator<String> iterator = colors.iterator();
+//        while (iterator.hasNext()){
+//            if (!iterator.next().startsWith("v")) iterator.remove();
+//        }
+       // I improved the method with removeIf
+        System.out.println("Remove all colors that don't initiate with 'y': ");
         Iterator<String> iterator = colors.iterator();
-        while (iterator.hasNext()){
-            if (!iterator.next().startsWith("v")) iterator.remove();
-        }
+        colors.removeIf(n -> (n.toLowerCase().charAt(0) == 'y'));
+        System.out.println(colors);
+
         System.out.println("Clear the vector: ");
         colors.clear();
+
         System.out.println("Check if its empty " + colors.isEmpty());
         }
 }
