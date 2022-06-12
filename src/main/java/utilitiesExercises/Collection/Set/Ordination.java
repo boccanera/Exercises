@@ -1,4 +1,4 @@
-package utilitiesExercises.Set;
+package utilitiesExercises.Collection.Set;
 import java.util.*;
 
 /*Create with Set and put in order the name, genre and time of an episode.

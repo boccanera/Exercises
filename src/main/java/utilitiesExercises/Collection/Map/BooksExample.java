@@ -1,4 +1,4 @@
-package utilitiesExercises.Map;
+package utilitiesExercises.Collection.Map;
 
 import java.util.*;
 

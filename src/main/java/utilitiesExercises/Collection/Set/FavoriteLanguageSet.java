@@ -1,4 +1,4 @@
-package utilitiesExercises.Set;
+package utilitiesExercises.Collection.Set;
 
 
 /*

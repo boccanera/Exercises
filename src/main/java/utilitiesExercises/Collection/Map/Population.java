@@ -1,4 +1,4 @@
-package utilitiesExercises.Map;
+package utilitiesExercises.Collection.Map;
 import java.util.*;
     /*
 Dada a população estimada de alguns estados do nordeste brasileiro, faça:

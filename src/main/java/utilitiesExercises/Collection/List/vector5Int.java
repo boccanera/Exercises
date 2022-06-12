@@ -1,4 +1,4 @@
-package utilitiesExercises.List;
+package utilitiesExercises.Collection.List;
 
 import java.util.ArrayList;
 import java.util.Scanner;

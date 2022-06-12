@@ -1,8 +1,6 @@
-package utilitiesExercises.Map;
+package utilitiesExercises.Collection.Map;
 
 import java.util.*;
-
-import static javax.swing.UIManager.put;
 
 public class Cars {
 
