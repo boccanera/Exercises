@@ -1,4 +1,4 @@
-package CleanCode;
+package Books.CleanCode.Misc;
 
 import java.util.HashMap;
 import java.util.Map;

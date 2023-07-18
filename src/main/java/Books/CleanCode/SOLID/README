@@ -1,0 +1,36 @@
+
+
+1. Single responsibility principle (SRP): a class must have only one reason to change.
+
+ex: if you have a class to insert an user and need to create a method for each different user you want to insert,
+this class have now more than one reason to change. Put an create method in a Interface (UserCrud) and implements it
+in a class named 'AssociateService' for example.
+
+
+2. Open–Closed Principle (OCP): open for extension, closed for modification.
+
+ex: instead of creating a method for edit an User as administrator and associate, we create these classes and implements
+User with the edit method in each classes as its needs. With this we have a flex api with good design,
+high quality and easy to maintain.
+
+
+3. Liskov Substitution Principle (LSP): when you extend a class, if some of the properties of the initial class are
+unecessary for the new class, the Liskov substitution principle has been violated.
+
+ex: if AssociateService implements UserCrud and don't need some of the methods of the implementation, it violates LSP.
+
+
+4. Interface Segregation Principle (ISP): the user/client would only have access to the necessary methods related
+to their needs.
+
+ex: We created AssociateAction and AdministratorAction interface because the associate don't readFast and walk like a
+boss. So we remove unecessary methods and implements in each class (LSP) like readFast() and walkLikeABoss()
+and created new interfaces for the corresponding Action of the administrator and associate (ISP).
+
+5. Dependency Inversion Principle (DIP): High-level modules should not import anything from low-level modules.
+Both should depend on abstractions (interfaces). Abstractions should not depend on details.
+Details (concrete implementations) should depend on abstractions.
+
+ex: Imagine that you need to go to your bank every time you need to withdraw money. Going to the bank takes you too much
+time. Now, if you had an ATM machine close to you only to withdraw money, it would be so easy, right? So in the code,
+the bank class and Customer implements ATM Interface that has the withdraw method.

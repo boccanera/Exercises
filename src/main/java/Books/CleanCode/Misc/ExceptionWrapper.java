@@ -1,4 +1,4 @@
-package CleanCode;
+package Books.CleanCode.Misc;
 
 public class ExceptionWrapper {
 
