@@ -1,4 +1,4 @@
-# Exercises
-Exercises that I found on udemy, hackerrank, leetcode and others.
+# :books: Studying
+Study catalog based on books on udemy, hackerrank, leetcode and others.
 
-Exercícios que encontrei no udemy, hackerrank, leetcode e outros.
+Catálogo de estudo com base em livros, udemy, hackerrank, leetcode e outros.
