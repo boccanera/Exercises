@@ -1,0 +1,15 @@
+Hash: transform one value into another based on a particular key. Converts the input into an output value usually
+shorter. Nonetheless collision can occur, when two different inputs result in the same output.
+
+Hashcode method: assign if the hashcode of the key will be equal.
+
+Equals method: compare if the obj content isEqual
+
+ex: new Student(1, "Bob") and new Student(1, "Bob") the key '1' is equal.
+
+If you Override Equal, you must to override hashcode method. (if two objects are equal, you must return the same object).
+
+If you don't override Hashcode, they will have different memory address and consequently different hashcode.
+
+https://www.developer.com/java/hashing-java/
+https://www.youtube.com/watch?v=CpVALR9HeTE

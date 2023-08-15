@@ -1,0 +1,30 @@
+When to use: abstraction you use when you need to create a new class with same implementation in some methods.
+             interface you use when you need to create a new class with all different method implementations
+
+Dependency injection: dependency was injected inside the object instead of instanced inside it
+constructor injection - pass the dependency through the constructor.
+
+     example:
+
+     public class Burger implements Food{}
+
+     wrong way:
+     public Chef() {
+         burger = new Burger();
+     }
+
+     correct way:
+     Food food; //Food is an interface
+       public Chef(Food food) {
+       this.food = food;
+     }
+
+     //Implementation
+     Chef chef = new Chef(new Burger());
+
+Inversion of Control: transfer the control of the object or part of a program to a framework.
+Enables a framework to take control over the flow of the program and make calls to our custom code.
+To do that, framework use abstractions, hence, to add an extra behavior, we extend the classes of the framework.
+IOC is achieved through dependency injection.
+
+https://www.youtube.com/watch?v=EPv9-cHEmQw

@@ -1,0 +1,16 @@
+ZIPKIN - DISTRIBUTED TRACING
+
+THEORY
+api gateway -> distributed tracing server -> database
+
+Monitoring vs observability
+Monitoring: reactive.
+Observability: proactive, one step above monitoring. Gather data(metrics, logs or traces),
+intelligence(AI/Ops and anomaly detection).
+OpenTelemetry: Collection of tools, APIs, and SDKs to instrument, generate, collect & export telemetry data(metrics,
+logs and traces).
+
+IMPLEMENTATION
+
+1. docker run -p 9411:9411 openzipkin/zipkin:2.32
+2. access localhost:9411/zipkin

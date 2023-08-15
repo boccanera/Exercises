@@ -1,6 +1,6 @@
-package DesignPattern.Factory;
+package DesignPattern.Factory.Model;
 
-public class BeefBurger implements Burger{
+public class BeefBurger implements Burger {
 
     Boolean doubleBeef;
 

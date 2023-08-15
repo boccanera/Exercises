@@ -1,0 +1,39 @@
+image: static version, set of bytes
+container: running version of your image
+
+#COMMANDS#
+
+docker run -p {hostPort}:{containerPort} [-m 512m] [-d] [--restart=always] {path:tag} // run the image
+[]: commands that are optional.
+-d: running in the background detached from the terminal
+--restart=always: restart the image when docker is restarted
+--restart=on-failure[3]: restart with max of 3 attempts
+-m 512 // max of 512mb of memory
+--cpu-quota 5000 // max of 5% of the cpu for this container 100000 = 100%
+
+docker container ls // show running containers)
+docker container ls -a // show running containers and the stopped)
+
+docker logs {id from the container} // show the logs)
+docker logs -f {id from the container} // show the logs in real time
+docker images // show the local images
+docker tag {path:tag} {path:new tag} // alter the tag
+docker image history {id} // steps involving in creating the image
+docker image inspect {id} // metadata of the image
+docker image remove {id} // remove the local image
+docker container pause {id} // pause the container
+docker container unpause {id} // unpause the container
+docker container prune // remove all stopped containers
+docker container stop {id} // stop the container takes about 10 seconds (sigterm) *THE APPROPRIATELY WAY.
+docker container kill {id} // kill the container immediately (sigkill)
+docker events // events that happened in docker engine/daemon, like a history
+docker top {id} // process running in the container
+docker stats // all the stats CPU, memmory usage of the containers we're running.
+docker system df // all the details that the docker daemon manages
+
+
+
+
+
+-d: run in the background detached from terminal
+

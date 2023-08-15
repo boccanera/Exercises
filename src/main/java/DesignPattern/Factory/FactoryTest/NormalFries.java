@@ -1,6 +1,6 @@
-package DesignPattern.Factory.Model;
+package DesignPattern.Factory.FactoryTest;
 
-import DesignPattern.Factory.Model.Interface.Fries;
+import DesignPattern.Factory.FactoryTest.Interface.Fries;
 
 public class NormalFries implements Fries {
     @Override

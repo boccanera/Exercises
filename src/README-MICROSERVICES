@@ -1,0 +1,9 @@
+GATEWAY - the clients access the url of the gateway and it will distribute the requests to the server (cloud or on premise).
+It also provides a single entry point for all clients to interact with the system, allowing for better scalability,
+security, and control over the APIs.
+
+API Gateway handles common tasks such as authentication, rate limiting, and caching, while also abstracting away the complexity of the underlying services.
+Discovery server - load balancer (APP to register the instances and balance between them the overload of requests)
+
+vertical growth = hardware (CPU, memory, hard drive)
+horizontal growth = cloud (more servers as demand increases)

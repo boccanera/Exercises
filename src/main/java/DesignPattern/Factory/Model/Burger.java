@@ -1,4 +1,4 @@
-package DesignPattern.Factory;
+package DesignPattern.Factory.Model;
 
 public interface Burger {
 
