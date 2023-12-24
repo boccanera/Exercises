@@ -27,4 +27,9 @@ Enables a framework to take control over the flow of the program and make calls 
 To do that, framework use abstractions, hence, to add an extra behavior, we extend the classes of the framework.
 IOC is achieved through dependency injection.
 
+RESUME:
+
+DI: Inject object's dependencies.
+IOC: Create and manage object.
+
 https://www.youtube.com/watch?v=EPv9-cHEmQw
