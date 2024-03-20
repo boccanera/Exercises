@@ -1,4 +1,4 @@
-package HackerRank;
+package Leetcode;
 
 import java.io.*;
 import java.util.*;
